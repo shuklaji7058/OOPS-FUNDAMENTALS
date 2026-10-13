@@ -21,7 +21,7 @@ public class Triangle extends Shape {
 		
 		public void displayDetails() {
 			System.out.println("===Triangle===");
-			System.out.println("Height: "+height);
+			System.out.println("Height "+height);
 			System.out.println("Base: "+base);
 			System.out.println("Area: "+area);
 		}
