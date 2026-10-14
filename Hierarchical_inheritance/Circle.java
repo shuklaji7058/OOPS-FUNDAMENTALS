@@ -19,6 +19,6 @@ public class Circle extends Shape{
 		public void displayDetails() {
 			System.out.println("===Circle===");
 			System.out.println("Radius: "+radius);
-			System.out.println("Area: " + area);
+			System.out.println("Area: " + super.area);
 		}
 }

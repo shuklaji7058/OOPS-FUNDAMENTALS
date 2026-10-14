@@ -19,6 +19,6 @@ public class Square extends Shape{
 		public void displayDetails() {
 			System.out.println("===Square===");
 			System.out.println("Side: "+side);
-			System.out.println("Area: " + area);
+			System.out.println("Area: " + super.area);
 		}
 }

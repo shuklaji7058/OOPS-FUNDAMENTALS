@@ -23,6 +23,6 @@ public class Triangle extends Shape {
 			System.out.println("===Triangle===");
 			System.out.println("Height "+height);
 			System.out.println("Base: "+base);
-			System.out.println("Area: "+area);
+			System.out.println("Area: "+super.area);
 		}
 }
