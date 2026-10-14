@@ -11,8 +11,12 @@ public class Driver {
 			m.setEmpName("Anish");
 			m.setBasicSalary(25000);
 			m.setDeptNumber(10);
-			m.displayManagerDetails();
+			
+			System.out.println("=====Employee Details=====");
 			m.displayEmployeeDetails();
+			System.out.println("=====Manager Details=====");
+			m.displayManagerDetails();
+			
 	}
 
 }
