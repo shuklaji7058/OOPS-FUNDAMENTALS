@@ -5,8 +5,16 @@ public class Employee {
 		private String empName;
 		private double basicSalary;
 		
+		
 		public Employee() {
 			super();
+		}
+		
+		public Employee( int empId, String empName, double basicSalary) {
+			super();
+			this.empId=empId;
+			this.empName = empName;
+			this.basicSalary = basicSalary;
 		}
 		
 		

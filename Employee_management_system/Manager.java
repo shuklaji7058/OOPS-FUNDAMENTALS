@@ -8,6 +8,11 @@ public class Manager extends Employee{
 		super();
 	}
 	
+	public Manager(int deptNumber, int empId, String empName, double basicSalary) {
+		super(empId,empName,basicSalary);
+		this.deptNumber = deptNumber;
+		
+	}
 	
 	public int getDeptNumber() {
 		return deptNumber;
